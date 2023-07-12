@@ -135,7 +135,11 @@ randomNumberFunction()
 
 // && || operator
 
-
 // innerHTML
 
 // LocalStorage
+
+
+// Thursday 
+// Hosting 
+// PDF in Portfolio Website
