@@ -178,6 +178,7 @@ submitButton.addEventListener("click", function() {
 const ulEl = document.getElementById("ul-el");
 let colour = document.getElementById("colour");
 let addBtn = document.getElementById("add")
+let resetBtn = document.getElementById("reset")
 
 let shoppingList = JSON.parse(localStorage.getItem("shoppingList")) || [];
 
@@ -217,6 +218,13 @@ function handleSubmit() {
 
 addBtn.addEventListener("click", function() {
        handleSubmit()
+})
+
+
+resetBtn.addEventListener("dblclick", function() {
+       localStorage.clear()
+       displayList()
+
 })
 
 
